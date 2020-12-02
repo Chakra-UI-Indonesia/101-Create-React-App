@@ -1,2 +1,2 @@
 # 101-Create-React-App
-Contoh menggunakan Chakra-UI dengan template CRA.
+Contoh menggunakan Chakra-UI dengan template CRA
