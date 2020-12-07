@@ -6,6 +6,8 @@ import {
   extendTheme,
   Text
 } from "@chakra-ui/react";
+// components
+import { Button, Breadcrumb } from "./components";
 
 const customTheme = extendTheme({
   colors: {
@@ -23,6 +25,10 @@ function App() {
       <ChakraProvider theme={customTheme}>
         <CSSReset />
         <Text color="brand.900">Chakra UI</Text>
+        <br />
+        <Breadcrumb />
+        <br />
+        <Button />
       </ChakraProvider>
     </div>
   );
